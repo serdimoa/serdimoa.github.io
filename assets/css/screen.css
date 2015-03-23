@@ -139,7 +139,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 }
 .icon-twitter:before {
     content: "\f602";
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .icon-google-plus:before {
     content: "\f603";
@@ -203,7 +203,7 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Merriweather", serif;
     text-rendering: geometricPrecision;
 }
 
@@ -497,7 +497,7 @@ body.nav-opened .site-wrapper {
     height: 100vh;
     margin-bottom: 5rem;
     text-align: center;
-    background: #222 no-repeat center center;
+    /*background: #222 no-repeat center center;*/
     background-size: cover;
     overflow: hidden;
 }
@@ -689,7 +689,7 @@ body.nav-opened .nav {
     color: #111 !important;
     text-align: center;
     font-size: 12px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Merriweather", serif;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 35px;
@@ -707,7 +707,7 @@ body.nav-opened .nav {
 .scroll-down {
     display: block;
     position: absolute;
-    z-index: 100;
+    z-index: 9;
     bottom: 45px;
     left: 50%;
     margin-left: -16px;
@@ -743,7 +743,6 @@ body.nav-opened .nav {
     bottom: 0;
     left: 50%;
     margin-left: -75px;
-    background: radial-gradient(ellipse at center,  rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%);
 }
 
 /* Hide when there's no cover image or on page2+ */
@@ -856,7 +855,7 @@ body.nav-opened .menu-button .word {
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Merriweather", serif;
     color: #fff;
 }
 
@@ -956,7 +955,7 @@ body:not(.post-template) .post-title {
 .post-meta {
     display: block;
     margin: 1.75rem 0 0 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Merriweather", serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
     color: #9EABB3;
@@ -1151,7 +1150,7 @@ body:not(.post-template) .post-title {
     position: absolute;
     top: 6rem;
     right: 0;
-    width: 140px;
+    width: 200px;
 }
 
 .post-footer .share a {
@@ -1330,7 +1329,7 @@ body:not(.post-template) .post-title {
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Merriweather", serif;
     font-size: 1.3rem;
     color: #9EABB3;
     text-align: center;
@@ -1415,7 +1414,7 @@ body:not(.post-template) .post-title {
     margin: 8rem 0 0 0;
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Merriweather", serif;
     font-size: 1rem;
     line-height: 1.75em;
     color: #BBC7CC;

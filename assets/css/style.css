@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Conv_Nautilus';
+    src: url('../fonts/Nautilus.eot');
+    src: local('☺'), url('../fonts/Nautilus.woff') format('woff'), url('../fonts/Nautilus.ttf') format('truetype'), url('../fonts/Nautilus.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+nav{
+    background-color: transparent;
+}
+footer.page-footer {
+    background-color: #ffffff;
+}
+a.btn-flat{
+    margin-bottom: 1px;
+    padding: 0 .1rem;
+}
+footer.page-footer{
+    margin-top: 0;
+    border-top:  none;
+}
+.older-posts{
+    position: static;
+    border: none;
+    width: 50%;
+}
+.newer-posts{
+    position: static;
+    border: none;
+    width: 50%;
+}
+nav.pagination.waves-effect{
+    position: relative;
+    display: block;
+}
+@media only screen and (max-width: 500px){
+    .older-posts{
+
+        line-height: 38px;
+    }
+    .newer-posts{
+
+        line-height: 38px;
+    }
+
+}
+a.waves-effect.waves-light.btn:hover{
+    color: #ffffff;
+}
+a.waves-effect.waves-light.btn{
+    width: 100%;
+}
+
+.content{
+    z-index: 10 !important;
+}
+.fixedpos{
+    position: fixed;
+    min-height: 100%;
+    margin-top: -50% !important;
+}
+.site-wrapper{
+    padding-top: 50%;
+}
+.post-head.main-header {
+
+    margin-top: -50%;
+}
+.author-head{
+    margin-top: -50%;
+}
+.content{
+    position: inherit;
+}
+.extra-pagination.inner{
+    padding-top: 1px;
+}
+.push{
+    margin-bottom: 25px;
+}
+.post {
+
+    margin: 1rem auto;
+}
+a:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}
+.backbtn{
+    background-color: #fff;
+    background-position: 16px 16px;
+    padding: 16px 0;
+    -webkit-transition: box-shadow .15s cubic-bezier(.33,.66,.66,1);
+    transition: box-shadow .15s cubic-bezier(.33,.66,.66,1);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    top: 50%;
+    margin-top: -30px;
+    position: fixed;
+    border: 1px solid rgba(0,0,0,0.18);
+    width: 58px;
+    text-align: center;
+    z-index: 25;
+}
+.backbtn:hover{
+    box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12) , 1px 0 2px 0 rgba(0,0,0,0.12) , 0 1px 1px 0 rgba(0,0,0,0.24);
+    cursor: pointer;
+}
+.post-footer .share a {
+    font-size: 2.5rem;
+}
+.hireme{
+
+    background: #673AB7;
+    z-index: 10 !important;
+    position: inherit;
+
+
+}
+.hireblock{
+    width: 80%;
+    max-width: 710px;
+    margin: auto;
+}
+.input-field{
+    line-height: normal;
+}
+.titlehire{
+    font-family: Conv_Nautilus, serif;
+    font-size: 4em;
+    text-align: center;
+    margin:1em 0 0.5em 0;
+    color: #fff;
+}
+.input-field label {
+    color: #fff;
+    font-size: 2rem;
+}
+/* label focus color */
+.input-field input[type=text]{
+    border-bottom: 1px solid #ffffff;
+    color: #fff;
+    font-size: 1em;
+}
+.input-field input[type=text]:focus + label {
+    color: #ffffff;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #ffffff;
+}
+.input-field label.active {
+    font-size: 1.2rem;
+}
+.hirebtn{
+    background: #ffffff;
+    width: 100%;
+    color: #673AB7;
+    font-family: Conv_Nautilus, serif;
+    text-transform: none;
+    font-size: 2rem;
+}
+.hirebtn:hover{
+    background: #ffffff;
+    color: #673AB7!important;
+}
+.input-field input[type=email]{
+    border-bottom: 1px solid #ffffff;
+    color: #fff;
+    font-size: 1em;
+}
+.input-field input[type=email]:focus + label {
+    color: #ffffff;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+/* valid color */
+.input-field input[type=email].valid {
+    border-bottom: 1px solid #4CAF50;
+    box-shadow: 0 1px 0 0 #4CAF50;
+}
+/* invalid color */
+.input-field input[type=email   ].invalid {
+    border-bottom: 1px solid #F44336;
+    box-shadow: 0 1px 0 0 #F44336;
+}
+.out{
+    display: none;
+    z-index: 9999;
+    width: 100%;
+    height: 100% !important;
+    position: absolute;
+    background: #673AB7;
+
+}
